@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Registration Form</title>
+</head>
+<body>
+    <h1><strong>Registration Form</strong></h1>
+    
+    <form>
+        <h2>Name of the Applicant:</h2>
+        <label for="first-name">Enter your first name:</label>
+        <input type="text" id="first-name" name="first-name"><br><br>
+
+        <label for="last-name">Enter your last name:</label>
+        <input type="text" id="last-name" name="last-name"><br><br>
+
+        <label>Date of Birth:</label>
+        <input type="number" placeholder="MM" min="1" max="12">
+        <input type="number" placeholder="DD" min="1" max="31">
+        <input type="number" placeholder="YYYY"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="grade">Grade:</label>
+        <input type="text" id="grade" name="grade"><br><br>
+
+        <label for="language">Language Spoken:</label>
+        <input type="text" id="language" name="language"><br><br>
+
+        <label>Details of Siblings:</label><br>
+        <label for="sibling1">1.</label>
+        <input type="number" id="sibling1"><br><br>
+        <label for="sibling2">2.</label>
+        <input type="number" id="sibling2"><br><br>
+
+        <h2>Parent's Information</h2>
+
+        <label for="father-name">Father's Name:</label>
+        <input type="text" id="father-name"><br><br>
+
+        <label for="father-qualification">Father's Qualification:</label>
+        <input type="text" id="father-qualification"><br><br>
+
+        <label for="father-email">Father's Email:</label>
+        <input type="email" id="father-email"><br><br>
+
+        <label for="mother-name">Mother's Name:</label>
+        <input type="text" id="mother-name"><br><br>
+
+        <label for="mother-qualification">Mother's Qualification:</label>
+        <input type="text" id="mother-qualification"><br><br>
+
+        <label for="mother-email">Mother's Email:</label>
+        <input type="email" id="mother-email"><br><br>
+
+        <label for="address">Residential Address:</label>
+        <input type="text" id="address"><br><br>
+
+        <p style="color: white; background-color: brown; padding: 5px;">Residential Address</p><br>
+
+        <label>Payment Method:</label><br>
+        <input type="radio" id="cash" name="payment" value="cash">
+        <label for="cash">Cash</label>
+        <input type="radio" id="check" name="payment" value="check">
+        <label for="check">Check</label>
+        <input type="radio" id="card" name="payment" value="card">
+        <label for="card">Card</label><br><br>
+
+        <p style="color: white; background-color: brown; padding: 5px;">Terms and Conditions</p><br>
+        <p>1. We certify that the above information provided by me/us is correct.</p>
+        <p>2. I undertake to submit all the documents in original for verification.</p>
+    </form>
+</body>
+</html>
